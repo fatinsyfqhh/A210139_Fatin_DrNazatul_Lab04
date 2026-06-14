@@ -1,19 +1,18 @@
 
 ### Lab Description
-This lab exercises remote network operations and asynchronous data fetching in Android applications. The objective of this assignment is to establish communication with external RESTful Web APIs, parse remote JSON payloads into local data models, and gracefully handle real-time network states within a Jetpack Compose user interface.
+This lab exercises advanced navigation architectures, structured layout transitions, and routing flows in contemporary Android applications. The objective of this assignment is to safely break down single-screen setups into a modular, multi-screen user flow using the official Jetpack Navigation component within a Jetpack Compose environment.
 
 ### Implementation Features
-* Setting up network HTTP clients using **Retrofit**.
-* Asynchronous API data fetching using Kotlin Coroutines and asynchronous state handlers.
-* Serialization and parsing of JSON payloads into type-safe Kotlin data classes.
-* Dynamic remote image loading and caching using asynchronous image libraries (e.g., Coil).
-* Implementing graceful network error handling, loading states and fallback user interfaces.
+* Configuring a centralized application routing architecture using `NavHost` and `NavController`.
+* Creating multi-screen navigation routes and handling seamless user transitions.
+* Passing argument payloads and type-safe data properties dynamically between active screen destinations.
+* Managing the navigation backstack safely to prevent layout repetition or resource leakages.
+* Designing clear menu headers, bottom bars, or quick-action navigators to jump between layouts.
 
 ### Technologies Used
-* Kotlin & Jetpack Compose
-* Retrofit / Ktor Client
-* Kotlinx Serialization / Gson
-* Coil (Asynchronous Image Loading)
+* Kotlin
+* Jetpack Compose UI
+* Jetpack Navigation Component
 * Android Studio
 
 ### Setup Instructions
